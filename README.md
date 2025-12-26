@@ -1,12 +1,12 @@
- Hugging Face Tokenizer Demo using Gradio
+# Hugging Face Tokenizer Demo using Gradio
 
- --> Project Overview
+## 📌 Project Overview
 This project demonstrates how a **Hugging Face Transformer tokenizer (BERT)** works by converting input text into **tokens and token IDs**.  
 A simple and interactive **Gradio web interface** is used to make the tokenizer easy to explore for beginners.
 
+---
 
-
- --> What This Project Does
+## 🧠 What This Project Does
 - Accepts user text as input
 - Tokenizes the text using **BERT (bert-base-uncased)**
 - Displays:
@@ -14,20 +14,28 @@ A simple and interactive **Gradio web interface** is used to make the tokenizer 
   - Corresponding token IDs
 - Runs as a lightweight web app using **Gradio**
 
+---
 
-
- --> Technologies Used
+## 🛠 Technologies Used
 - Python
 - Hugging Face Transformers
 - BERT Tokenizer (`bert-base-uncased`)
 - Gradio
 
+---
 
-
- --> How It Works
+## 🚀 How It Works
 1. User enters a sentence in the textbox
 2. The text is processed using Hugging Face’s BERT tokenizer
 3. Tokens and token IDs are displayed instantly
+
+---
+
+## ▶ How to Run the Project
+
+### 1️⃣ Install Dependencies
+```bash
+pip install transformers gradio
 
 
 
